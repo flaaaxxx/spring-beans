@@ -4,6 +4,6 @@ public class Doctor {
 
     public void assist(){
         System.out.println("Doctor is assisting");
-        System.out.println("Doctor is not ccc");
+        System.out.println("Doctor is not ddd");
     }
 }
