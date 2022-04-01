@@ -2,8 +2,8 @@ package demo;
 
 public class Doctor {
 
-    public void assist(){
+    public void assist() {
         System.out.println("Doctor is assisting");
-        System.out.println("Doctor is not ddd");
+        System.out.println("Doctor is not fff");
     }
 }
