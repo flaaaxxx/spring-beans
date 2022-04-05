@@ -1,8 +1,7 @@
 package demo;
 
-public class Doctor implements Staff {
+public class Doctor {
 
-    @Override
     public void assist() {
         System.out.println("Doctor is assisting");
     }
