@@ -5,6 +5,10 @@ public class Doctor implements Staff {
     private String qualification;
     private Nurse nurse;
 
+    public Doctor(String qualification) {
+        this.qualification = qualification;
+    }
+
     public Nurse getNurse() {
         return nurse;
     }

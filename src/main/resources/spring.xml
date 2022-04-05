@@ -4,6 +4,7 @@
        xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
 
     <bean id="doctor" class="demo.Doctor">
+        <constructor-arg value="MBBS"/>
         <property name="qualification" value="MBBS"/>
         <property name="nurse" ref="nurse"/>
     </bean>
