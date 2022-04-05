@@ -1,8 +1,10 @@
 package demo;
 
+import org.springframework.context.annotation.Scope;
 import org.springframework.stereotype.Component;
 
 //@Component
+@Scope(scopeName = "singleton")
 public class Doctor implements Staff {
 
     private String qualification;
@@ -29,4 +31,10 @@ public class Doctor implements Staff {
         System.out.println("Doctor is assisting");
     }
 
+    @Override
+    public String toString() {
+        return "Doctor{" +
+                "qualification='" + qualification + '\'' +
+                '}';
+    }
 }
