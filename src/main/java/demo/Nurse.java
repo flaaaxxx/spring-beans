@@ -1,6 +1,9 @@
 package demo;
 
-public class Nurse implements Staff{
+import org.springframework.stereotype.Component;
+
+@Component
+public class Nurse implements Staff {
 
     @Override
     public void assist() {
